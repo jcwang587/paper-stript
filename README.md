@@ -1,2 +1,2 @@
 # PaperTest
-A. Reading a test video with VideoReader
+A. Reading a test video with *VideoReader*

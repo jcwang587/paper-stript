@@ -1,3 +1,5 @@
+%play a video & display its height and width in pixels, as well as frame count
+
 videoFileReader = VideoReader('paperStrip.mp4');
 depVideoPlayer = vision.DeployableVideoPlayer;
 frame_count = 1;

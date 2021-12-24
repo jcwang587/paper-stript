@@ -12,7 +12,7 @@ while hasFrame(videoFileReader)
     pause(1/videoFileReader.FrameRate);
     frame_count = frame_count + 1;
 end 
-release(videoPlayer);
+release(depVideoPlayer);
 
 disp('Frame count =');
 disp(frame_count);

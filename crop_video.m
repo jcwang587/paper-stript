@@ -1,3 +1,5 @@
+% play a section of video (start & end frames specified by user) 
+
 videoFileReader = VideoReader('paperStrip.mp4');
 depVideoPlayer = vision.DeployableVideoPlayer;
 

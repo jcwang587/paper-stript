@@ -1,3 +1,5 @@
+%convert a video to grayscale and play it
+
 videoFileReader = VideoReader('paperStrip.mp4');
 depVideoPlayer = vision.DeployableVideoPlayer;
 
